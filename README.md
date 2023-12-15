@@ -4,7 +4,7 @@
 
 ## Overview
 
-One-Dark-Shell is a unique terminal-based portfolio that combines the aesthetics of the One Dark theme with an interactive command-line interface. This project serves as a platform to showcase my personal and professional journey, coding projects, skills, and contact information in a developer-friendly environment.
+One-Dark Shell is a unique terminal-based portfolio that combines the aesthetics of the One Dark theme with an interactive command-line interface. This project serves as a platform to showcase my personal and professional journey, coding projects, skills, and contact information in a developer-friendly environment.
 
 ## Available Commands
 
@@ -28,6 +28,10 @@ One-Dark-Shell is a unique terminal-based portfolio that combines the aesthetics
   ![GIF](images/gif.gif)
 
 </details>
+
+## Acknowledgments
+
+- The [One Dark theme](https://github.com/atom/one-dark-syntax) for inspiration.
 
 ## License
 
