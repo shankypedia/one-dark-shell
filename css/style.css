@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Consolas';
+    src: url('fonts/Consolas.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Courier New';
+    src: url('fonts/cour.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 15px 20px;
+    min-height: 99%;
+    width: 100%;
+    min-width: 550px;
+    color: #ABB2BF;
+    background: #282C34;
+    font-family: cursor, 'Consolas', 'Courier New', monospace;
+    overflow-x: hidden;
+}
+
+::selection {
+    color: #FFFFFF;
+    background-color: #ABB2BF;
+}
+
+::-moz-selection {
+    color: #FFFFFF;
+    background-color: #211830;
+}
+
+textarea {
+    left: -1000px;
+    position: absolute;
+}
+
+
+/* Cursor Start */
+.cursor {
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #ABB2BF;
+    position: relative;
+    opacity: 1;
+    height: 1.5em;
+    width: 10px;
+    max-width: 10px;
+    transform: translateY(4px);
+    overflow: hidden;
+    text-indent: -5px;
+    display: inline-block;
+    text-decoration: blink;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+#command {
+    cursor: text;
+    height: 50px;
+    color: #E5c07B;
+}
+
+.previous-command {
+    color: #E5c07B;
+}
+
+#liner {
+    line-height: 1.3em;
+    margin-top: -2px;
+    animation: show 0.5s ease forwards;
+    animation-delay: 1.2s;
+    opacity: 0;
+}
+
+#liner::before {
+    content: "(guest@sashank.wiki) - $";
+    color: #ABB2BF;
+}
+
+#liner.password::before {
+    content: "Password:";
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Cursor End */
+
+p {
+    display: block;
+    line-height: 1.3em;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+    letter-spacing: 0.05em;
+    animation: typing 0.5s steps(30, end);
+}
+
+.no-animation {
+    animation: typing 0 steps(30, end);
+}
+
+.margin {
+    margin-left: 20px;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.index {
+    color: #E06C75;
+}
+
+.color2 {
+    color: #98C379;
+}
+
+.command {
+    color: #61AFEF;
+    text-shadow: 0 0 5px #61AFEF;
+}
+
+.error {
+    color: #E06C75;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.inherit,
+a {
+    color: #E06C75;
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: 0;
+}
+
+.underlined-link {
+    text-decoration: underline;
+    color: #C678DD;
+}
+
+.underlined-link:hover {
+    background: #ABB2BF;
+    color: #282C34;
+    text-decoration: underline;
+}
