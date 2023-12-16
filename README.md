@@ -19,6 +19,11 @@ One-Dark Shell is a unique terminal-based portfolio that combines the aesthetics
 - **`social`**: Show links to social media profiles.
 - **`whoami`**: Display personal information and a brief introduction.
 
+## Secret Commands
+
+- `sudo`: A playful command acknowledging the attempt but with no specific action.
+- `jokes`: Need a good laugh? Enter this command for some jokes!
+
 ## Screenshots
 
 <details>
