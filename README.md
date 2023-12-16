@@ -29,7 +29,7 @@ One-Dark Shell is a unique terminal-based portfolio that combines the aesthetics
 <details>
   <summary>Click to view Screenshots and GIF</summary>
 
-  ![Screenshot](images/screenshot.png)
+  <!-- ![Screenshot](images/screenshot.png) -->
   ![GIF](images/gif.gif)
 
 </details>
