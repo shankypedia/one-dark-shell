@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-[#MIT License](LICENSE)
+# [MIT License](LICENSE)
 
 # Screenshot
 
