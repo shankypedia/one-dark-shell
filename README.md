@@ -22,6 +22,7 @@ One-Dark Shell is a unique terminal-based portfolio that combines the aesthetics
 ## Secret Commands
 
 - `sudo`: A playful command acknowledging the attempt but with no specific action.
+- `starwars`: STARWARS printed in ASCII.
 - `jokes`: Need a good laugh? Enter this command for some jokes!
 
 ## Screenshots
