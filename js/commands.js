@@ -1,7 +1,7 @@
 achievements = [
     "<br>",
     "Certifications:",
-    "DevOps and Software Engineering Specialization"
+    "DevOps and Software Engineering Specialization",
     "   - Issuing Organization: IIBM",
     "   - Issue Date: October, 2024",
     "   - Credential URL: <a href='https://coursera.org/share/28d019ece64b8172f86e7fc9c01d088c' target='_blank' class='underlined-link'>View Certificate</a>",
